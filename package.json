@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A template for technical documentation",
   "private": true,
+  "homepage": "https://yagoestevez.github.io/documentify/",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -12,7 +13,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "author": "Yago Estévez",
   "keywords": [
@@ -22,5 +24,8 @@
     "template",
     "react"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
 }
