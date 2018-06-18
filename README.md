@@ -1,6 +1,6 @@
 # documentify
 
-I made this technical documentation template for one of the projects required by the FreeCodeCamp curriculum.
+This is a template for technical documentation made with HTML, CSS and Javascript (React). It was build for one of the projects required by the FreeCodeCamp curriculum.
 
 I based the whole concept in a little React library I made for fun.
 
