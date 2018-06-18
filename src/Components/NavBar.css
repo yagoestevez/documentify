@@ -1,0 +1,70 @@
+#navbar {
+  position            : fixed;
+  top                 : 0;
+  left                : 0;
+  width               : 20vw;
+  padding             : 15vh 0 1rem 5vw;
+}
+
+  #mob-menu-btn {
+    display           : none;
+  }
+
+  #navbar #nav-container {
+    border-right      : 1px solid var(--bg-secondary-color);
+    position          : relative;
+  }
+
+    #nav-container header {
+      color           : var(--key-color);
+      padding-right   : 1rem;
+    }
+
+    #nav-container a.nav-link,
+    #nav-container a.nav-link:visited {
+      display         : block;
+      color           : var(--fonts-color);
+      text-decoration : none;
+      padding         : 1rem 1rem 1rem 0;
+      display         : flex;
+      justify-content : space-between;
+      align-items     : center;
+      transition      : 300ms;
+    }
+
+      #nav-container a.nav-link:hover,
+      #nav-container a.nav-link:active {
+        color         : var(--key-color);
+        background    : var(--bg-secondary-color);
+        padding-left  : 1rem;
+        border-left   : 5px solid var(--key-color);
+      }
+
+    #nav-container a.night-mode-toggler,
+    #nav-container a.night-mode-toggler:visited {
+      color           : var(--fonts-color);
+      text-decoration : none;
+      text-align      : center;
+      font-size       : .8rem;
+      display         : flex;
+      justify-content : center;
+      align-items     : center;
+      padding-right   : 2rem;
+      transition      : 300ms, border 100ms;
+    }
+    
+      #nav-container a.night-mode-toggler:hover,
+      #nav-container a.night-mode-toggler:active {
+        color         : var(--key-color);
+      }
+
+    #nav-container a.night-mode-toggler i {
+      color           : inherit;
+      font-size       : 1.5rem;
+    }
+
+    #nav-container a i {
+      font-size       : .8rem;
+      padding-right   : .5rem;
+      color           : var(--bg-secondary-color);
+    }

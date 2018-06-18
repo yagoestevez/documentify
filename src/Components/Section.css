@@ -1,0 +1,28 @@
+#main-doc .main-section header {
+  padding             : 3rem 0 .3rem 0;
+}
+
+  #main-doc .main-section header h1 {
+    display           : inline;
+  }
+
+    #main-doc .main-section header h1::before {
+      content         : "# ";
+      vertical-align  : middle;
+      color           : var(--bg-secondary-color);
+    }
+
+  #main-doc .main-section header a,
+  #main-doc .main-section header a:visited {
+    color             : var(--fonts-color);
+    font-size         : 1.5rem;
+    display           : inline;
+    text-decoration   : none;
+    transition        : color 300ms;
+  }
+
+  #main-doc .main-section header a:hover,
+  #main-doc .main-section header a:active {
+    text-decoration   : none;
+    color             : var(--key-color);
+  }

@@ -1,0 +1,39 @@
+/* Header Styles */
+#header {
+  height            : 10vh;
+  width             : 100%;
+  margin            : 0 auto;
+  padding           : 0 5vw;
+  display           : flex;
+  justify-content   : space-between;
+  align-items       : center;
+  border-bottom     : 1px solid var(--bg-secondary-color);
+  background        : var(--bg-color);
+  position          : fixed;
+  top               : 0px;
+  left              : 0px;
+  z-index           : 1;
+}
+
+  #header h1 {
+    color           : var(--key-color);
+    display         : inline;
+  }
+
+  #header a,
+  #header a:visited {
+    color           : var(--fonts-color);
+    text-decoration : none;
+    transition      : color 300ms;
+  }
+
+  #header a:hover,
+  #header a:active {
+    color           : var(--key-color);
+  }
+
+  #header i.fab {
+    color           : var(--key-color);
+    font-size       : 2rem;
+    padding-left    : .5rem;
+  }
