@@ -5,7 +5,7 @@ const NavItem = ( props ) => {
   const handleClick = ( e ) => {
     e.preventDefault( );
     const element = props.section.ref.current.sectionRef.current;
-    element.scrollIntoView( { behavior: 'smooth' } );
+    element.scrollIntoView( { block: 'start', behavior: 'smooth' } );
   }
   
   return (
