@@ -8,7 +8,7 @@ I based the whole concept in a little React library.
 ##### Demo
 You can see how it looks in this animated gif:
 
-![alt text](https://raw.githubusercontent.com/yagoestevez/documentify/master/public/Demo/Demo.gif "Demo for the project")
+![alt text](https://raw.githubusercontent.com/yagoestevez/documentify/master/public/Demo/Demo.gif "Demo for the project")<br />
 You may also visit the live demo [here](https://yagoestevez.github.io/documentify/).
 
 
