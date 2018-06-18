@@ -1,10 +1,20 @@
 # documentify
 
-This is a template for technical documentation made with HTML, CSS and Javascript (React). It was build for one of the projects required by the FreeCodeCamp curriculum.
+A beautiful template for technical documentation made with HTML, CSS and Javascript (React). It's built for one of the projects required to get the certification on FreeCodeCamp.
 
-I based the whole concept in a little React library I made for fun.
+I based the whole concept in a little React library.
 
-If you have any suggestions of find any bug, please feel free to contact me on Twitter.
+
+##### Demo
+You can see how it looks in this animated gif:
+
+![alt text](https://raw.githubusercontent.com/yagoestevez/documentify/master/public/Demo/Demo.gif "Demo for the project")
+You may also visit the live demo [here](https://yagoestevez.github.io/documentify/).
+
+
+##### Suggestions
+
+Any feedback is welcome. If you have any suggestions or find any bugs, please feel free to contact me on Twitter so I can fix it.
 
 Cheers!
 
